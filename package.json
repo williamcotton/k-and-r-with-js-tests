@@ -1,0 +1,12 @@
+{
+  "name": "kr-test",
+  "version": "1.0.0",
+  "description": "Going through K&R and writing tests in JS for all the examples.",
+  "scripts": {
+    "test": "make && tape test/*-spec.js | tap-summary"
+  },
+  "devDependencies": {
+    "tap-summary": "^3.0.1",
+    "tape": "^4.6.0"
+  }
+}
